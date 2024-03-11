@@ -1,11 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YtYt</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>YtYt</title>
 </head>
+
 <body>
-    
+  <header>
+    <nav>
+      <div class="container">
+        <div class="header__wrapper">
+          <a class="header__logo">
+            <img src="icons/logo.svg" alt="">
+          </a>
+          <ul class="header__menu">
+            <li class="header__menu_item"><a href="#" class="header__menu_link">Чему вы научитесь</a></li>
+            <li class="header__menu_item"><a href="" class="header__menu_link">Процесс обучения</a></li>
+            <li class="header__menu_item"><a href="" class="header__menu_link">Стоимость</a></li>
+            <li class="header__menu_item"><a href="" class="header__menu_link">Контакты</a></li>
+          </ul>
+          <div class="header__authorization">
+            <a href="#" class="header__signup">Регистрация</a>
+            <a href="#" class="header__signin">
+              <!-- <img src="icons/login arrow.svg" alt=""> -->
+              <button class="header__btn">Войти</button>
+            </a>
+          </div>
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-another">
+      <div class="hero__wrapper">
+        <div class="hero__text">
+          <div class="hero__title">Школа <span>{</span>программирования<span>}</span> для тех, кому нужны реальные
+            навыки,<br> а не просто сертификат</div>
+          <div class="hero__descr">Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам</div>
+          <button class="hero__btn">
+            <span>Пройти тестирование</span>
+            <img src="icons/btnArrow.svg" alt="">
+          </button>
+        </div>
+        <div class="hero__img">
+          <img src="img/comp in hero.svg" alt="">
+        </div>
+      </div>
+      <div class="hero__another">
+        <div class="hero__sphere">
+          <img src="icons/heroArrow.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <scetion class="technology">
+    <div class="container">
+      <div class="technology__title">Какие технологии вы изучите:</div>
+      <div class="technology__wrapper">
+        <div class="technology__omg">
+          <img src="img/technologies.svg" alt="">
+        </div>
+        <div class="technology__text">
+          <div class="technology__blocks">
+            <div class="row">
+              <div class="technology__stacks">Язык программирования Python</div>
+              <div class="technology__network">Сеть</div>
+              <div class="technology__db">Базы данных</div>
+              <div class="technology__flask">Фреймворки Flask и Django</div>
+              <div class="technology__test">Отладка и тестирование</div>
+              <div class="technology__dock">Docker</div>
+              <div class="technology__git">Git</div>
+            </div>
+          </div>
+          <div class="technology__min">Это необходимый минимум для современного backend-разработчика</div>
+        </div>
+      </div>
+    </div>
+  </scetion>
+
+  <section class="study">
+    <div class="container">
+      <div class="study__title">Обучение в YtYt – это удобно и результативно</div>
+      <div class="study__wrapper">
+        <div class="study__block">
+          <img src="img/practice.svg" alt="">
+          <div class="study__subtitle">Огромное количество практики</div>
+          <div class="study__descr">Более 500 самостоятельных заданий и 20 полноценных больших проектов</div>
+        </div>
+        <div class="study__block">
+          <img src="img/method.svg" alt="">
+          <div class="study__subtitle">Современные методики обучения</div>
+          <div class="study__descr">Современные методики обучения</div>
+        </div>
+        <div class="study__block">
+          <img src="img/mac.svg" alt="">
+          <div class="study__subtitle">Простое и понятное изложение</div>
+          <div class="study__descr">Вместо заумных терминов – примеры из реального мира</div>
+        </div>
+        <div class="study__block">
+          <img src="img/calendar.svg" alt="">
+          <div class="study__subtitle">Гибкий график занятий</div>
+          <div class="study__descr">Учитесь в любое время в удобном
+            для вас темпе</div>
+        </div>
+        <div class="study__block">
+          <img src="img/comment.svg" alt="">
+          <div class="study__subtitle">Прямая связь с опытными программистами</div>
+          <div class="study__descr">Задавайте вопросы
+            и отправляйте свой код на проверку</div>
+        </div>
+        <div class="study__block">
+          <img src="img/money.svg" alt="">
+          <div class="study__subtitle">Оплата небольшими частями</div>
+          <div class="study_descr">Платите только за тот материал, который сейчас изучаете,
+            а не за весь курс сразу</div>
+        </div>
+        <div class="study__block">
+          <img src="img/fly.svg" alt="">
+          <div class="study__subtitle">Платите только за тот материал, который сейчас изучаете,
+            а не за весь курс сразу</div>
+          <div class="study__descr">Если передумаете учиться –
+            вернем деньги за 3 рабочих дня</div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
